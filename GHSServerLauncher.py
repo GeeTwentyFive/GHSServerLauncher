@@ -28,4 +28,4 @@ except Exception as e:
 	print("UPnP ERROR: " + str(e))
 
 
-os.system("start .\\ServerFiles\\srcds.exe -game hidden -tickrate 128 " + "".join(sys.argv))
+os.system("start .\\ServerFiles\\srcds.exe -game hidden -tickrate 128 " + " ".join(sys.argv))
